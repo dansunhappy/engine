@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## This page intentionally left blank. ##
 #
 # Workaround for VS2013 automatically creating .gitattributes files with
@@ -5,3 +6,8 @@
 # See also:
 # http://connect.microsoft.com/VisualStudio/feedback/details/804948/inappropriately-creates-gitattributes-file
 # http://crbug.com/342064
+=======
+# Dart sources have to be normalized so that source offsets in kernel files
+# with source embedded in them match across all platforms.
+*.dart text eol=lf
+>>>>>>> upstream/master
